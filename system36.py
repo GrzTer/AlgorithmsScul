@@ -17,6 +17,7 @@ Przykład
     Wyjście
         `MIREK`
 """
+
 # x,y,z=input().split()
 # y,z=int(y),int(z)
 # dec=int(x,y)
@@ -24,9 +25,6 @@ Przykład
 # r=""
 # while dec:dec,m=divmod(dec,z);r=d[m]+r
 # print(r or "0")
-
-
-
 
 
 def main() -> None:
@@ -39,8 +37,11 @@ def main() -> None:
     dig = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     res = ""
 
-    while dec:dec, m=divmod(dec, z); res=dig[m] + res
+    while dec:
+        dec, m = divmod(dec, z)
+        res = dig[m] + res
     print(res or 0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
