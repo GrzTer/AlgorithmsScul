@@ -4,7 +4,7 @@
 # opis funkcji: Dla dodatnich liczb a i b zwraca największy wspólny dzielnik
 # parametry: a - liczba dodatnia na których liczymy nwd
 #            b - liczba dodatnia na których liczymy nwd
-# zwracany typ: liczba dodatnia a, największy wspólny dzielnik
+# zwracany typ:
 # autor: 000000000
 # **************************************************************************
 def nwd(a: int, b: int) -> int:

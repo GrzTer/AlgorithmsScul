@@ -21,7 +21,11 @@ Przykłady:
         `TAK`
 """
 
-def czy_anagram(k: str, l: str) -> str: return "TAK" if sorted(k) == sorted(l) else "NIE"
+def czy_anagram(k: str, l: str) -> str: return ("TAK" if sorted(k) == sorted(l) else "NIE") if len(k) == len(l) else "NIE"
+
+def czy_anagram_2(k: str, l: str) -> str:
+    if len(k) != len(l): return "NIE"
+
 
 def main() -> None:
     k = input().strip()
